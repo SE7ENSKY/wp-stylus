@@ -1,34 +1,6 @@
-WP Stylus by Se7enSky
-=========
-
-Wordpress plugin adding Stylus support.
-Rendering is done using free Se7enSky SAAS Render service using standart fresh Node.js Stylus.
-
-# Installation
-
-1. Install as usual Wordpress plugin.
-2. Chmod 777 for cache directory under installed plugin directory
-
-## Features
-
- - renders Stylus files (*.styl) to CSS files
- - hosts them as CSS files (http://host.com/wp-content/themes/se7ensky/somefile.css is actually mapped to http://host.com/wp-content/themes/se7ensky/somefile.styl)
- - basic caching implemented – re-render *.css file when *.styl file changed
-
-### ToDo
- - support for @include
- - earlier (thus, faster) rendering
-
-### Authors
-
-  - [Se7enSky studio](http://www.se7ensky.com/)
-  - [Ivan Kravchenko](http://github.com/krava)
-
-#### License
-
 (The MIT License)
 
-Copyright (c) 2008-2013 Se7enSky studio &lt;info@se7ensky.com&gt;
+Copyright (c) 2008-2013 Se7enSky studio <info@se7ensky.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
