@@ -11,7 +11,7 @@
   License file: LICENSE
  */
 
-namespace se7ensky/stylus;
+namespace se7ensky\stylus;
 
 $cacheRoot = __DIR__ . '/cache';
 
