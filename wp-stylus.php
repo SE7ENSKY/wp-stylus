@@ -13,7 +13,7 @@
 
 namespace se7ensky\stylus;
 
-const CACHE = __DIR__ . '/cache';
+define('CACHE', __DIR__ . '/cache');
 
 function pipeRender($url, $source) {
 	$ch = curl_init();
