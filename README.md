@@ -14,10 +14,7 @@ Rendering is done using free Se7enSky SAAS Render service using standart fresh N
  - renders Stylus files (*.styl) to CSS files
  - hosts them as CSS files (http://host.com/wp-content/themes/se7ensky/somefile.css is actually mapped to http://host.com/wp-content/themes/se7ensky/somefile.styl)
  - basic caching implemented – re-render *.css file when *.styl file changed
-
-### ToDo
- - support for @include
- - earlier (thus, faster) rendering
+ - stylus @import support
 
 ### Authors
 
